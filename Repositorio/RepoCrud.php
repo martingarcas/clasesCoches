@@ -2,15 +2,15 @@
 
     interface RepoCrud {
 
-        public function create();
+        public function create($obj);
 
-        public function getById();
+        //public function getById($id);
 
         public function getAll();
 
-        public function update();
+        //public function update($obj);
 
-        public function delete();
+        //public function delete($id);
     }
 
 ?>
