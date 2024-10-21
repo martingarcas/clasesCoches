@@ -1,15 +1,17 @@
 <?php
 
-    /*class Coche {
+    class Coche {
 
-        private $marca;
-        private $color;
+        public $id;
+        public $marca;
+        public $modelo;
 
-        public function __construct($marca, $color) {
-            
-            $this->marca = $marca;
-            $this->color = $color;
+        public function __construct($id, $marca, $modelo) {
+
+            $this->id       = $id;
+            $this->marca    = $marca;
+            $this->modelo   = $modelo;
         }
 
-    }*/
+    }
 ?>
